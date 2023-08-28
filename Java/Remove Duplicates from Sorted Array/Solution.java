@@ -3,7 +3,7 @@ class Solution {
     public int removeDuplicates(int[] nums) {
         /**
          * Author: https://github.com/Gabril0
-         * Runtime: 2ms (really bad results in this one)
+         * Runtime: 2ms
          * Beats: 15.63%
          * Memory: 43.87
          * Beats: 59.78%
