@@ -2,11 +2,11 @@ class Solution {
     public int maxProfit(int[] prices) {
             /**
          * Author: https://github.com/Gabril0
-         * Runtime: 2 ms
-         * Beats: 83.18%
-         * Memory: 60.80 mb
-         * Beats: 72.67%
-        To solve this, I need to get all the numbers and store the lowest and the highest profit, then compare the positions until I get the highest.
+         * Runtime: 1 ms
+         * Beats: 86.24%
+         * Memory: 43.77 mb
+         * Beats: 98.79%
+        To solve this, I need to compare the previous price with the current one, and then sum the profits when they are possible.
         */
         int previous = prices[0];
         int profit = 0;
